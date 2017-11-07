@@ -1,0 +1,20 @@
+{
+	"mei":{
+		"password":"m123456",
+		"age":26,
+		"sex":0,// 0: man; 1: woman
+		"city":"广东省深圳市宝安区"
+	},
+	"zhou":{
+		"password":"z123456",
+		"age":25,
+		"sex":0,// 0: man; 1: woman
+		"city":"广东省深圳市宝安区"
+	},
+	"xie":{
+		"password":"x123456",
+		"age":18,
+		"sex":0,// 0: man; 1: woman
+		"city":"广东省深圳市宝安区"
+	}
+}
