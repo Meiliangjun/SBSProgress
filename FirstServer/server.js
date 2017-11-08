@@ -14,7 +14,7 @@ function start(route, handle) {
 		}
 	}
 	// 创建服务器，并绑定接口和主机地址
-	http.createServer(onRequest).listen(80);
+	http.createServer(onRequest).listen(8090);
 	console.log('Server has started.');
 }
  

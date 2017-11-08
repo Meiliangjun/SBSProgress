@@ -5,6 +5,7 @@ let requestHandle = require('./requestHandle.js');
 // 映射到对应方法解析
 var handle = {};
 handle['/login'] = requestHandle.login;
-handle['/testUpload'] = requestHandle.testUpload;
+// handle['/testUpload'] = requestHandle.testUpload;
+handle['/myLovely'] = requestHandle.myLovely;
 
 server.start(router.route, handle);
